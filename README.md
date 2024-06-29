@@ -1,16 +1,11 @@
-# green_health
+## Inspiration
+Growing up surrounded by gardens and with a family member experienced in maintaining them, I often struggled to identify different plants and care for them, especially when the resident gardener was away. I soon realized that many people faced similar challenges, so I decided to create an app to solve this problem.
 
-A new Flutter project.
+## What it does
+The app allows users to take pictures of unfamiliar plants and learn their names, scientific classifications, and optimal growing conditions.
 
-## Getting Started
+## How we built it
+I developed the app using Flutter and integrated Google’s Gemini LLM for image recognition.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## What we learned
+This project was my first experience with both Flutter and the Gemini API. I learned how to develop a user-friendly UI in Flutter and effectively integrate the LLM for plant identification.
