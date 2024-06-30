@@ -14,10 +14,12 @@ This project was my first experience with both Flutter and the Gemini API for de
 ## Prerequisites
  - Flutter
  - Dart
+ - Android phone/emulator
 
 ## How to install
  - Clone the project with ```https://github.com/Abishek-Jayan/Green-Health.git```
  - In your preferred terminal, install all dependencies with ```flutter pub get```
+ - Connect your Android phone to your PC, make sure USB debugging is enabled on your phone (else, use an Android emulator) and test run the app with ```flutter run```
  - Build the apk with ```flutter build apk --release```
  - Then you can install the app by connecting your phone to your PC then manually copy paste the apk from the build folder to your phone and install the apk directly
  - Or if you have USB debugging enabled on your phone, connect it and run ```flutter install apk --release```
