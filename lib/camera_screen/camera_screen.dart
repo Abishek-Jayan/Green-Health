@@ -7,7 +7,7 @@ import 'dart:typed_data';
 import 'package:google_generative_ai/google_generative_ai.dart';
 import 'dart:convert';
 
-const geminiApiKey = "AIzaSyAkTu1APiM_33fZaVeNSXPkPU5v8nUKs2I"; 
+const String geminiApiKey = String.fromEnvironment('API_KEY'); 
 final model = GenerativeModel(model: 'gemini-1.5-flash', apiKey: geminiApiKey);
 
 class CameraScreen extends StatefulWidget {
